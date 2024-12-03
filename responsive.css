@@ -1,0 +1,11 @@
+@media (min-width: 1024px) {
+    .resp-width {
+      width: calc(100% - 32px);  /* Medium screens */
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .resp-width  {
+      width: calc(1440px - 32px);  /* Large screens */
+    }
+  }
