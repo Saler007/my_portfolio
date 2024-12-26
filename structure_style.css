@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0px auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/* TOP BAR */
+#top-bar {
+  background-color: #fff;
+  height: 5.75rem; /* 92px */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+}
+
+.top-bar-name {
+  color: #27374d;
+  width: 25%;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.top-bar-nav {
+  width: 75%;
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  list-style: none;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HOME */
+#home {
+  /* background-color: #9db2bf; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-introduction {
+  width: fit-content;
+  display: block;
+  justify-content: start;
+  align-items: center;
+}
+
+.home-introduction h1 {
+  background-color: aquamarine;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  color: #27374d;
+  margin: 0%;
+  font-size: 60px;
+}
+
+.home-introduction span {
+  display: flex;
+  justify-content: center;
+  color: #27374d;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.home-introduction p {
+  display: flex;
+  justify-content: start;
+  color: #526d82;
+  font-size: 30px;
+}
+
+.home-image {
+  height: auto;
+  width: 40%;
+  display: flex;
+}
+
+.home-image img {
+  background-color: transparent;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex: 1 0 100%;
+  justify-content: flex-end;
+  transition: all 0.5s;
+}
+
+.box-frame img {
+  display: flex;
+  flex: 1 0 100%;
+}
+
+.experience {
+  background-color: aquamarine;
+  height: 80%;
+  width: 60%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 1rem;
+}
+
+.h1-st {
+  background-color: aquamarine;
+}
+
+.technologies {
+  height: 80%;
+  width: 50%; 
+  border-radius: 2rem;
+  display: block;
+  justify-content: center;
+  padding: 0px 1rem;
+  overflow-x: hidden;
+}
+
+.technologies h1{
+  color: #27374d;
+}
+
+.technologies img {
+  height: 5rem;
+  width: auto;
+}
+
+/* PROJECTS */
+#project {
+  margin-top: 6rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container1{
+  margin-top: 2rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project1{
+  height: 40vh;
+  width: 40%;
+}
+
+.project2{
+  height: 40vh;
+  width: 60%;
+}
+
+/* ABOUT */
+#about {
+  margin-top: 6rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container{
+  margin-top: 2rem;
+  height: 50%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.profile{
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  display: flex;
+  overflow: hidden;
+}
+
+.profile img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+.description{
+  display: block;
+  justify-content: center;
+}
+
+.description p{
+  color: #526d82;
+}
+
+/* FOOTER */
+#footer {
+  color: white;
+  background-color: #27374d;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer h3 {
+  padding: 0px 5%;
+}
+
+.divider {
+  padding-top: 4.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-line {
+  background-color: #27374d;
+  height: 1.5px;
+  width: 20%;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.divider-text {
+  color: #27374d;
+  padding: 0px 2%;
+}

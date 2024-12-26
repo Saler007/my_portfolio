@@ -1,48 +1,3 @@
-.container nav a {
-  position: relative;
-  color: #27374D;
-  font-family: 'Segoe UI';
-  font-weight: bold;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.container nav a:hover{
-  color: #526D82;
-}
-
-.container nav a::before{
-  background-color: #526D82;
-  content: "";
-  position: absolute;
-  height: 2.5px;
-  width: 0%;
-  bottom: -5px;
-  left: 0;
-  transition: all 0.5s;
-  border-radius: 8px;
-}
-
-.container nav a:hover:before{
-  width: 100%;
-}
-
-h1 {
-  
-}
-
-/* img {
-  height: 400px;
-  width: 300px;
-  margin: 16px;
-  border-radius: 4px;
-  transition: all 0.5s;
-} */
-
-img:hover {
-  transform: scale(1.1);
-}
-
 .h-full {
   height: 100%;
 }
@@ -51,20 +6,16 @@ img:hover {
   width: 100%;
 }
 
-.w-25per {
-  width: 25%;
+.gap {
+  gap: 2rem;
 }
 
-.h-\[4\.625rem\] {
-  height: 4.625rem; /* Xpx = font-size X * 4.625 */
+.justify-center {
+  justify-content: center;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overflow-y-auto {
-  overflow-y: auto;
+.justify-end {
+  justify-content: end;
 }
 
 .justify-between {
@@ -75,7 +26,54 @@ img:hover {
   align-items: center;
 }
 
-.flex {
+.row {
   display: flex;
 }
 
+.column {
+  display: block;
+}
+
+.grid {
+  display: grid;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.color-B500{
+  color: #27374d;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.color-B300{
+  color: #526d82;
+}
+
+.color-B100{
+  color: #9db2bf;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
